@@ -16,6 +16,7 @@ end
 end
 
 def words_five_letters_long(text)
+  text.scan(/\wa{5}/)
 
 end
 
